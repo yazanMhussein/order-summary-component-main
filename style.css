@@ -1,0 +1,121 @@
+body{
+    background-image: url(./images/pattern-background-desktop.svg),url(./images/);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    
+}
+.mainBody{
+    display: flex;
+    justify-content: center;
+    font-family: 'Red Hat Display', sans-serif;
+    margin: auto;
+    width: 20%;
+
+}
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5%;
+    
+}
+
+.woman{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.topText{
+    font-size:16px;
+    text-align: center;
+    justify-content: center;
+    }
+.headerText{
+    margin-top: 5%;
+    font-size:16px;
+    font-weight:bolder;
+    color:hsl(223, 47%, 23%)
+    }
+.subText{
+    color:hsl(224, 23%, 55%);
+    margin-left: 15%;
+    width: 70%;
+    font-size:16px;
+    font-weight: 500;}
+
+.musicGroup{
+    display: flex;
+    flex-direction: row;
+    background-color:hsl(225, 100%, 98%);
+    border: 50%;
+    border-style: none;
+    border-radius: 10px;
+    justify-content: center;
+    width: 70%;
+   height: 50%;
+    margin-bottom: 5%;
+}
+.musicIcon{
+    margin-top: 5%;
+    margin-right: 5%;
+    height: 50%;
+    width: 15%;
+    color:hsl(225, 100%, 98%);
+}
+.planPrice{
+    font-size:16px;}
+.price{
+    margin-top: 0px;
+    color:hsl(224, 23%, 55%);
+    font-size:16px;
+    font-weight: 500;}
+.Change{
+    margin-top: 7%;
+    margin-left: 15%;
+    font-size:16px;
+    color:hsl(245, 75%, 52%);
+    text-decoration: underline;    
+    box-shadow: hsl(224, 23%, 55%);
+}
+.Change:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.buttonGroup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+   }
+.Payment{
+    font-size:16px;
+    padding: 2%;
+    height: 35%;
+    width: 70%;
+    background-color:hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    font-weight: 500;
+    border-style: none;}
+.Payment:hover{
+    cursor: pointer;
+    opacity: 0.8;}
+.Cancel:hover{
+    cursor: pointer;
+color: hsl(223, 47%, 23%);}
+.Cancel{
+    padding: 3%;
+    height: 50%;
+    width: 70%;
+    
+    margin-bottom: 5%;
+    font-weight: 900;
+    font-size:16px;
+    color: hsl(224, 23%, 55%);
+    border-radius: 15px;
+    background-color: white;
+    border-style: none;}
